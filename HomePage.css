@@ -1,0 +1,24 @@
+.home-page-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-image: url('../Images/main.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+}
+.image-main{
+    margin-top: 90px;
+    max-width: 200%;
+    max-height: 200%;
+    border-radius: 10px;
+
+    
+}
+@media (max-width:768px){
+    .image-main{
+        margin-top: 60px;
+    }
+}

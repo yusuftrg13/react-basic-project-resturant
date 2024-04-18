@@ -1,0 +1,95 @@
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 20px;
+    right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+   
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    font-size: 40px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    cursor: pointer;
+    font-size: 50px;
+    
+  }
+  .logo h1:hover{
+    color:rgba(139, 12, 12, 0.466);
+
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .menu li:last-child {
+    margin-right: -60px;
+    font-size: 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+    font-size: 20px;
+  }
+  
+  .menu a:hover {
+    color:rgba(139, 12, 12, 0.466);
+  }
+  
+  .scrolled {
+    background-color:white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    
+    height:100px;
+    border-radius: 10px;
+  }
+  .scrolled h1{
+    color: black;
+  }
+  .scrolled a{
+    color: black;
+  }
+  
+  .logo h1 {
+    font-size: 35px;
+    margin-left:-150px;
+  }
+  
+  @media (max-width: 768px) {
+    .logo h1 {
+      font-size: 20px;
+    }
+  }
+  
